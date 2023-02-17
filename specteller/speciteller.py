@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import argparse
-import liblinearutil as ll
+import liblinear.liblinearutil as ll
 
 import utils
 import sys
@@ -11,11 +11,11 @@ from generatefeatures import ModelNewText
 
 RT = "./"
 
-BRNCLSTSPACEFILE = RT+"cotraining_models/brnclst1gram.space"
-SHALLOWSCALEFILE = RT+"cotraining_models/shallow.scale"
-SHALLOWMODELFILE = RT+"cotraining_models/shallow.model"
-NEURALBRNSCALEFILE = RT+"cotraining_models/neuralbrn.scale"
-NEURALBRNMODELFILE = RT+"cotraining_models/neuralbrn.model"
+BRNCLSTSPACEFILE = RT + "cotraining_models/brnclst1gram.space"
+SHALLOWSCALEFILE = RT + "cotraining_models/shallow.scale"
+SHALLOWMODELFILE = RT + "cotraining_models/shallow.model"
+NEURALBRNSCALEFILE = RT + "cotraining_models/neuralbrn.scale"
+NEURALBRNMODELFILE = RT + "cotraining_models/neuralbrn.model"
 
 def initBrnSpace():
     s = Space(101)

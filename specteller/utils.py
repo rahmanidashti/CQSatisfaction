@@ -9,16 +9,16 @@ import gzip
 import numpy as np
 
 
-RT = "/Users/prudhvi/Desktop/workspace/speciteller_experiments/"
-MPQAFILE = RT+"resources/subjclueslen1-HLTEMNLP05.tff"
-MRCFILE = RT+"resources/mrc2.dct"
-GENINQFILE = RT+"resources/inquirerTags.txt"
-BROWNCLUSFILE = RT+"resources/brown-rcv1.clean.tokenized-CoNLL03.txt-c100-freq1.txt"
-NEURALVECFILE = RT+"resources/embeddings-scaled.EMBEDDING_SIZE=100.txt.gz"
-CONNFILE = RT+"data/connectives.txt"
-IDF_FILE = RT+"data/nyt2006.idf.txt"
-IDF_FILE2 = RT+"data/nyt2006.idf.lower.txt"
-STOPWORDFILE = RT+"data/nltkstopwords.txt"
+RT = "./"
+MPQAFILE = RT + "resources/subjclueslen1-HLTEMNLP05.tff"
+MRCFILE = RT + "resources/mrc2.dct"
+GENINQFILE = RT + "resources/inquirerTags.txt"
+BROWNCLUSFILE = RT + "resources/brown-rcv1.clean.tokenized-CoNLL03.txt-c100-freq1.txt"
+NEURALVECFILE = RT + "resources/embeddings-scaled.EMBEDDING_SIZE=100.txt.gz"
+CONNFILE = RT + "data/connectives.txt"
+IDF_FILE = RT + "data/nyt2006.idf.txt"
+IDF_FILE2 = RT + "data/nyt2006.idf.lower.txt"
+STOPWORDFILE = RT + "data/nltkstopwords.txt"
 
 
 
