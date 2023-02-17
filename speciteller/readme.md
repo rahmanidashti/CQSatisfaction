@@ -1,4 +1,4 @@
-# Specteller
+# Speciteller
 
 ## Install
 
