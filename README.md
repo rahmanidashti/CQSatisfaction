@@ -1,5 +1,12 @@
 # CQSatisfaction
-Clarification Question Satisfaction
+Clarifying the Path to User Satisfaction: An Investigation into Clarification Usefulness (EACL 2024)
+
+<div align="center">
+
+  [![arxiv-link](https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red)](https://arxiv.org/abs/2402.01934)
+  [![made-with-pytorch](https://img.shields.io/badge/Made%20with-PyTorch-brightgreen)](https://pytorch.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</div>
 
 ## Abstract
 Clarifying questions are an integral component of modern information retrieval systems, directly impacting user satisfaction and overall system performance. Poorly formulated questions can lead to user frustration and confusion, negatively affecting the system’s performance. This research addresses the urgent need to identify and leverage key features that contribute to the classification of clarifying questions, enhancing user satisfaction. To gain deeper insights into how different features influence user satisfaction, we conduct a comprehensive analysis, considering a broad spectrum of lexical, semantic, and statistical features, such as question length and sentiment polarity. Our empirical results provide three main insights into the qualities of effective query clarification: (1) specific questions are more effective than generic ones; (2) the subjectivity and emotional tone of a question play a role; and (3) shorter and more ambiguous queries benefit significantly from clarification. Based on these insights, we implement feature-integrated user satisfaction prediction using various classifiers, both traditional and neural-based, including random forest, BERT, and large language models. Our experiments show a consistent and significant improvement, particularly in traditional classifiers, with a minimum performance boost of 45%. This study presents invaluable guidelines for refining the formulation of clarifying questions and enhancing both user satisfaction and system performance.
