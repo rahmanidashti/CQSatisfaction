@@ -15,6 +15,19 @@ Clarifying questions are an integral component of modern information retrieval s
 # All codes and Details
 The codes and details of parameters/models/results will be available upon the acceptance of the paper. We have already put a sample notebook of our analysis on MIMCS: [Open this link](https://github.com/rahmanidashti/CQSatisfaction/blob/main/MIMICS_Characteristics.ipynb) 
 
+## Cite
+```
+@inproceedings{rahmani-etal-2024-clarifying,
+    title = "Clarifying the Path to User Satisfaction: An Investigation into Clarification Usefulness",
+    author = "Rahmani, Hossein A.  and Wang, Xi  and Aliannejadi, Mohammad  and Naghiaei, Mohammadmehdi  and Yilmaz, Emine",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.84",
+    pages = "1266--1277",
+}
+```
+
 # Reproducibility
 We will release all the material to foster the reproducibility of our study and analysis.
 
